@@ -38,9 +38,13 @@ Berdasarkan pembacaan mentah teks (*plain-text*) pada fungsi pembanding `strcmp`
 ```text
 7gb5fjf8v4bg8fb34f
 
+B. Kunci Dependensi Stage 2
+Logika program mensyaratkan eksistensi berkas fisik eksternal pada alamat sistem /tmp/. Jika fungsi fopen mengembalikan nilai pointer 0x0 (NULL), eksekusi akan digagalkan otomatis. Alamat berkas jebakan tersebut adalah:
+/tmp/crackme_89nfnjfiefheufeue
+
+6. Kesimpulan dan Solusi Akhir (Proof of Work)
 Tantangan diselesaikan dengan melakukan manipulasi lingkungan lokal terminal. Penuntasan dilakukan dengan membuat berkas tiruan kosong di direktori target menggunakan perintah touch /tmp/crackme_89nfnjfiefheufeue, mengeksekusi binary berkas, dan menyuplai kata sandi yang telah ditemukan.
 
-![Bukti Terminal Sukses](images/crackme-2.png)
 Program berhasil ditembus dengan bukti keluaran teks sukses seperti dokumentasi di bawah ini:
 
 Disclaimer: Portofolio ini disusun murni untuk tujuan riset akademis, pemenuhan tugas perkuliahan, serta edukasi keamanan perangkat lunak. Seluruh analisis dilakukan di lingkungan aman VM.

@@ -35,6 +35,7 @@ Berikut merupakan visualisasi struktur fungsi internal yang berhasil didekompila
 
 ### **A. Kunci Otentikasi Stage 1**
 Berdasarkan pembacaan mentah teks (*plain-text*) pada fungsi pembanding `strcmp`, kunci rahasia yang disimpan di dalam memori statis bernilai:
+![Bukti Terminal](images/crackme-2.png)
 ```text
 7gb5fjf8v4bg8fb34f
 

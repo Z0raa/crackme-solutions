@@ -54,6 +54,7 @@ Berikut adalah tabel rekonstruksi manual hasil konversi dari data memori array m
 Melalui penggabungan karakter dari indeks `0` hingga `0xe`, ditemukan kata sandi otentikasi rahasia yaitu:
 
 d00r1$m@licious
+
 ![hasil Terminal](images/crackme-3.1.png)
 
 6. Kesimpulan dan Solusi Akhir (Proof of Work)

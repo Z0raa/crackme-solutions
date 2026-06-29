@@ -35,7 +35,7 @@ Berikut merupakan visualisasi struktur fungsi internal yang berhasil didekompila
 
 ### **A. Kunci Otentikasi Stage 1**
 Berdasarkan pembacaan mentah teks (*plain-text*) pada fungsi pembanding `strcmp`, kunci rahasia yang disimpan di dalam memori statis bernilai:
-![Bukti Terminal](images/crackme-2.png)
+
 ```text
 7gb5fjf8v4bg8fb34f
 
@@ -45,6 +45,7 @@ Logika program mensyaratkan eksistensi berkas fisik eksternal pada alamat sistem
 
 6. Kesimpulan dan Solusi Akhir (Proof of Work)
 Tantangan diselesaikan dengan melakukan manipulasi lingkungan lokal terminal. Penuntasan dilakukan dengan membuat berkas tiruan kosong di direktori target menggunakan perintah touch /tmp/crackme_89nfnjfiefheufeue, mengeksekusi binary berkas, dan menyuplai kata sandi yang telah ditemukan.
+![Bukti Terminal](images/crackme-2.png)
 
 Program berhasil ditembus dengan bukti keluaran teks sukses seperti dokumentasi di bawah ini:
 

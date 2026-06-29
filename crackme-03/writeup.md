@@ -60,6 +60,6 @@ d00r1$m@licious
 6. Kesimpulan dan Solusi Akhir (Proof of Work)
 Pengujian dilakukan langsung melalui terminal Kali Linux dengan memberikan hak akses eksekusi pada berkas binary menggunakan perintah chmod +x EyeCandyLOCKED. Saat program dijalankan dan meminta input kata sandi, kode hasil rekonstruksi di atas disuplai ke dalam sistem.
 
-Sistem berhasil ditembus dengan konfirmasi status THE DOOR IS UNLOCKED! beserta output hadiah tautan gambar eksternal seperti visualisasi di bawah ini:
+Sistem berhasil ditembus dengan konfirmasi status THE DOOR IS UNLOCKED!
 
 Disclaimer: Portofolio ini disusun murni untuk tujuan riset akademis, pemenuhan tugas perkuliahan, serta edukasi keamanan perangkat lunak. Seluruh analisis dilakukan di lingkungan aman VM.

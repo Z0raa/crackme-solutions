@@ -48,5 +48,5 @@ Tantangan diselesaikan dengan melakukan manipulasi lingkungan lokal terminal. Pe
 
 Program berhasil ditembus dengan bukti keluaran teks sukses seperti dokumentasi di bawah ini:
 ![Bukti Terminal](images/crackme-2.png)
-Disclaimer: Portofolio ini disusun murni untuk tujuan riset akademis, pemenuhan tugas perkuliahan, serta edukasi keamanan perangkat lunak. Seluruh analisis dilakukan di lingkungan aman VM.
 
+Disclaimer: Portofolio ini disusun murni untuk tujuan riset akademis, pemenuhan tugas perkuliahan, serta edukasi keamanan perangkat lunak. Seluruh analisis dilakukan di lingkungan aman VM.
